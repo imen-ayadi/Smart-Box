@@ -11,6 +11,8 @@ pinned: false
 
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
 "# Smart-Box" 
+
+
 The proposed solution aims to revolutionize how companies handle their emails by integrating advanced Natural Language Processing (NLP) tools and models. These technologies will bring several key improvements to the email system:
 •	Automated Email Categorization: By using sophisticated NLP models, the system can automatically sort emails into predefined categories. This means that emails can be quickly organized by type or priority, making it easier for employees to find and focus on the most important messages first. This will save time and reduce the chaos of a cluttered inbox.
 •	Information Extraction: With advanced NLP techniques, the system can automatically pick out key information from emails, such as dates, names, or locations. This helps in quickly retrieving important details without having to read through entire emails. For example, if an email mentions a meeting date, the system can highlight and record it for easy access.
