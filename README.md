@@ -1,16 +1,4 @@
----
-title: Smart Box
-emoji: 🐢
-colorFrom: pink
-colorTo: pink
-sdk: gradio
-sdk_version: 4.31.5
-app_file: app.py
-pinned: false
----
-
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
-"# Smart-Box" 
+ 
 
 
 # Smart Box: AI-Powered Email Management System
@@ -19,14 +7,16 @@ Smart Box is an advanced AI-based email management system developed to enhance i
 
 # Key Features
 
-Automated Email Categorization: Automatically classifies incoming emails into predefined categories such as Urgent Requests, Client Communications, and Project Updates.
+### Automated Email Categorization:
+Automatically classifies incoming emails into predefined categories such as Urgent Requests, Client Communications, and Project Updates.
 Information Extraction: Extracts key details like dates, names, and locations from emails for quick access.
 Sentiment Analysis: Analyzes the tone of emails, helping prioritize critical communications based on sentiment.
 Email Summarization: Summarizes lengthy emails into concise, digestible formats, improving readability and productivity.
 Response Generation: Generates professional email responses, saving time and improving communication efficiency.
 Technologies Used
 
-NLP Models: RoBERTa, BERT, DeBERTa, T5
+# NLP Models:
+RoBERTa, BERT, DeBERTa, T5
 Frameworks & Libraries: Gradio, Hugging Face Transformers, Docker, spaCy
 Programming Languages: Python
 Deployment: Deployed on Hugging Face Spaces
@@ -53,3 +43,17 @@ Future Enhancements
 
 Implement multilingual support for non-English emails.
 Integration with popular email services (Gmail, Outlook) for seamless deployment.
+
+---
+title: Smart Box
+emoji: 🐢
+colorFrom: pink
+colorTo: pink
+sdk: gradio
+sdk_version: 4.31.5
+app_file: app.py
+pinned: false
+---
+
+Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+"# Smart-Box"
