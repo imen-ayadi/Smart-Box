@@ -13,10 +13,43 @@ Check out the configuration reference at https://huggingface.co/docs/hub/spaces-
 "# Smart-Box" 
 
 
-The proposed solution aims to revolutionize how companies handle their emails by integrating advanced Natural Language Processing (NLP) tools and models. These technologies will bring several key improvements to the email system:
-•	Automated Email Categorization: By using sophisticated NLP models, the system can automatically sort emails into predefined categories. This means that emails can be quickly organized by type or priority, making it easier for employees to find and focus on the most important messages first. This will save time and reduce the chaos of a cluttered inbox.
-•	Information Extraction: With advanced NLP techniques, the system can automatically pick out key information from emails, such as dates, names, or locations. This helps in quickly retrieving important details without having to read through entire emails. For example, if an email mentions a meeting date, the system can highlight and record it for easy access.
-•	Sentiment Analysis: This feature will analyze the tone and mood of incoming emails to understand how the sender is feeling. By identifying whether an email is positive, negative, or neutral, companies can prioritize urgent or critical communications and respond more appropriately. This is particularly useful for customer service, where understanding client sentiment is crucial.
-•	Email Summarization: Long emails can be time-consuming to read. The solution employs advanced summarization methods to generate concise summaries of lengthy emails. This enables employees to quickly understand the main points without having to read through extensive text, thereby accelerating their decision-making process.
-•	Response Generation: Generating draft responses automatically will help employees reply to emails faster and more consistently. Advanced NLP models can craft well-structured responses based on the content of the received emails, reducing the time and effort needed to write replies from scratch and ensuring that responses are professional and aligned with the company’s communication standards.
-By integrating these features, the solution will make email management much more efficient, freeing up employees to focus on more strategic tasks. It will also ensure that communication is handled swiftly and consistently, improving overall organizational productivity and customer satisfaction.
+# Smart Box: AI-Powered Email Management System
+# Project Overview
+Smart Box is an advanced AI-based email management system developed to enhance internal communication processes for organizations. It leverages NLP models and machine learning techniques to automate tasks such as email categorization, sentiment analysis, named entity recognition (NER), summarization, and response generation. This system significantly reduces the time spent managing emails, allowing employees to focus on more strategic tasks.
+
+# Key Features
+
+Automated Email Categorization: Automatically classifies incoming emails into predefined categories such as Urgent Requests, Client Communications, and Project Updates.
+Information Extraction: Extracts key details like dates, names, and locations from emails for quick access.
+Sentiment Analysis: Analyzes the tone of emails, helping prioritize critical communications based on sentiment.
+Email Summarization: Summarizes lengthy emails into concise, digestible formats, improving readability and productivity.
+Response Generation: Generates professional email responses, saving time and improving communication efficiency.
+Technologies Used
+
+NLP Models: RoBERTa, BERT, DeBERTa, T5
+Frameworks & Libraries: Gradio, Hugging Face Transformers, Docker, spaCy
+Programming Languages: Python
+Deployment: Deployed on Hugging Face Spaces
+Project Structure
+
+fine_tuned_roberta_for_category_model_: Pre-trained model for email categorization
+fine_tuned_roberta_for_sentiment_analysis: Pre-trained model for sentiment analysis
+llama2_response_mail_generator.py: Generates responses using LLaMA-2
+summarization_with_bart.py: Summarizes emails using BART model
+app.py: Main application logic
+Dockerfile: Docker setup for deployment
+Setup & Installation
+
+![Screenshot_110](https://github.com/user-attachments/assets/03ef6b55-2ae4-401d-bc54-e1ba978a472c)
+
+
+# Clone the repository:
+git clone https://github.com/imen-ayadi/Smart-Box.git
+Install dependencies:
+pip install -r requirements.txt
+Run the application:
+python app.py
+Future Enhancements
+
+Implement multilingual support for non-English emails.
+Integration with popular email services (Gmail, Outlook) for seamless deployment.
