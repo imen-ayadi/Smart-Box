@@ -9,18 +9,24 @@ Smart Box is an advanced AI-based email management system developed to enhance i
 
 ### Automated Email Categorization:
 Automatically classifies incoming emails into predefined categories such as Urgent Requests, Client Communications, and Project Updates.
-Information Extraction: Extracts key details like dates, names, and locations from emails for quick access.
-Sentiment Analysis: Analyzes the tone of emails, helping prioritize critical communications based on sentiment.
-Email Summarization: Summarizes lengthy emails into concise, digestible formats, improving readability and productivity.
-Response Generation: Generates professional email responses, saving time and improving communication efficiency.
-Technologies Used
-
-# NLP Models:
+### Information Extraction:
+Extracts key details like dates, names, and locations from emails for quick access.
+### Sentiment Analysis: 
+Analyzes the tone of emails, helping prioritize critical communications based on sentiment.
+### Email Summarization: 
+Summarizes lengthy emails into concise, digestible formats, improving readability and productivity.
+### Response Generation: 
+Generates professional email responses, saving time and improving communication efficiency.
+# Technologies Used
+#### NLP Models:
 RoBERTa, BERT, DeBERTa, T5
-Frameworks & Libraries: Gradio, Hugging Face Transformers, Docker, spaCy
-Programming Languages: Python
-Deployment: Deployed on Hugging Face Spaces
-Project Structure
+### Frameworks & Libraries: 
+Gradio, Hugging Face Transformers, Docker, spaCy
+### Programming Languages:  
+Python
+### Deployment: 
+Deployed on Hugging Face Spaces
+### Project Structure
 
 fine_tuned_roberta_for_category_model_: Pre-trained model for email categorization
 fine_tuned_roberta_for_sentiment_analysis: Pre-trained model for sentiment analysis
