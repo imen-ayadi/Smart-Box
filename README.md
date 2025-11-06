@@ -1,7 +1,5 @@
- 
-
-
 # Smart Box: AI-Powered Email Management System
+
 # Project Overview
 Smart Box is an advanced AI-based email management system developed to enhance internal communication processes for organizations. It leverages NLP models and machine learning techniques to automate tasks such as email categorization, sentiment analysis, named entity recognition (NER), summarization, and response generation. This system significantly reduces the time spent managing emails, allowing employees to focus on more strategic tasks.
 
